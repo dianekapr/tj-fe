@@ -1,0 +1,48 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  font-family: 'Arial', sans-serif;
+}
+
+.error {
+  color: red;
+  font-weight: bold;
+}
+
+.vehicle-card {
+  cursor: pointer;
+}
+
+.pagination button {
+  margin: 0 5px;
+}
+
+.filter-dropdown select {
+  padding: 10px;
+  margin-top: 5px;
+}
+
+.modal-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: rgba(0, 0, 0, 0.5);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.modal {
+  background-color: white;
+  padding: 20px;
+  border-radius: 10px;
+  width: 400px;
+}
+
+.modal button {
+  margin-top: 10px;
+}
